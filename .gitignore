@@ -1,0 +1,29 @@
+# Dataset, experiment, and model artifacts
+ data/
+ datasets/
+ outputs/
+ results/
+ checkpoints/
+ weights/
+ *.pth
+ *.pt
+ *.ckpt
+ *.onnx
+ *.engine
+
+# Python and notebook artifacts
+__pycache__/
+*.py[codz]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated media and logs
+*.avi
+*.mp4
+*.log
+runs/
+logs/
